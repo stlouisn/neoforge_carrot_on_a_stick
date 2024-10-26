@@ -1,0 +1,5 @@
+/ Mixin Extras /
+def mixinextras_version = "0.4.1" // https://github.com/LlamaLad7/MixinExtras/releases
+repositories { maven { url = "https://jitpack.io" }}
+dependencies { implementation ( annotationProcessor( "io.github.llamalad7:mixinextras-neoforge:${mixinextras_version}" ))}
+println ("\nMixinsExtras Annotation: $mixinextras_version")
