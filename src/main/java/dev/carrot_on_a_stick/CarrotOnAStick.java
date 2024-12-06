@@ -1,13 +1,15 @@
 package dev.carrot_on_a_stick;
 
-import dev.carrot_on_a_stick.utils.Constants;
-import net.neoforged.fml.common.Mod;
+import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@Mod(Constants.MOD_ID)
-public final class CarrotOnAStick {
+public final class CarrotOnAStick implements ModInitializer {
 
-  @SuppressWarnings("unused")
-  public static final Logger LOGGER = LoggerFactory.getLogger(Constants.MOD_ID);
+  /** @noinspection unused*/
+  public static final Logger LOGGER = LoggerFactory.getLogger(ModConstants.MOD_ID);
+
+  public void onInitialize() {
+  }
+
 }
