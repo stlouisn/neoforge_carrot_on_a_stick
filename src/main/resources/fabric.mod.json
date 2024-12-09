@@ -21,7 +21,7 @@
     ]
   },
   "mixins": [
-    "carrot_on_a_stick.mixins.json"
+    "carrot-on-a-stick.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
